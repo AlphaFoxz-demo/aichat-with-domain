@@ -56,7 +56,7 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-4070620250821001",
     "@dcloudio/uni-ui": "^1.5.11",
     "vue": "^3.4.21",
-    "vue-fn": "0.1.0-rc.1",
+    "vue-fn": "0.1.0-rc.2",
     "vue-i18n": "^9.1.9"
   },
   "devDependencies": {

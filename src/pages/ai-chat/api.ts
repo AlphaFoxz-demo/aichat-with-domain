@@ -7,8 +7,12 @@ export function aiChatQuery(
   onSuccess = () => void 0,
   onFail = () => void 0
 ) {
+  let url = `/api/query`;
+  //#ifdef MP-WEIXIN
+  url = `http://127.0.0.1:3000/api/query`;
+  //#endif
   const requestTask = uni.request({
-    url: `/api/query`,
+    url,
     method: 'POST',
     header: {
       Connection: 'keep-alive',
