@@ -1,0 +1,15 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "[vue]": {
+    "prettier.semi": true,
+    "prettier.printWidth": 80,
+    "prettier.singleQuote": true
+  },
+  "[typescript]": {
+    "prettier.semi": true,
+    "prettier.printWidth": 80,
+    "prettier.singleQuote": true
+  }
+}
